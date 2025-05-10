@@ -1,0 +1,97 @@
+body{
+    height: auto;
+    width: auto;
+    background: linear-gradient(45deg, black, #09004e, rgb(82, 0, 175));
+}
+
+*{
+    font-family: "Cal Sans";
+}
+
+.contenedor-navbar{
+    padding: 10px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(40, 44, 255);
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.boton-inicio-o-registro{
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.boton-inicio-o-registro:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.contenedor-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: 125px;
+}
+.contenedor-carrusel{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel section{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    margin: 50px;
+}
+.carrusel section img{
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 0.5s ease;
+}
+.carrusel section img:hover{
+    cursor: crosshair;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
