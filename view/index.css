@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 30px;
 }
 .logo{
     font-size: 35px;
@@ -69,11 +69,26 @@ body{
     color: white;
     margin-top: 125px;
 }
+.contenedor-marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.marcas{
+    font-size: 40px;
+    color: aliceblue;
+}
 .contenedor-carrusel{
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.textos{
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
 .carrusel section{
     display: flex;
