@@ -76,8 +76,16 @@ body{
     flex-direction: column;
 }
 .marcas{
+    display: flex;
+    justify-content: center;
     font-size: 40px;
     color: aliceblue;
+}
+.logos{
+
+}
+.logos-slide{
+    
 }
 .contenedor-carrusel{
     margin: 20px;
