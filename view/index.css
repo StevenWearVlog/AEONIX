@@ -54,6 +54,7 @@ body{
     background-color: white;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+
 }
 .boton-inicio-o-registro:hover{
     background-color: white;
@@ -140,7 +141,11 @@ body{
     color: white;
     font-size: 40px;
     text-align: center;
+    padding: 10px;
+    margin: 20px;
+
 }
+
 .carrusel section{
     display: flex;
     width: 800px;
