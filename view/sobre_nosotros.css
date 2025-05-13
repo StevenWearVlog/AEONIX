@@ -1,0 +1,83 @@
+body{
+    height: auto;
+    width: auto;
+    background: linear-gradient(45deg, black, #09004e, rgb(82, 0, 175));
+}
+
+*{
+    font-family: "Cal Sans";
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contenedor-navbar{
+    padding: 10px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.nombre-marca{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(40, 44, 255);
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.boton-inicio-o-registro{
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+.boton-inicio-o-registro:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.sobre_nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+}
+.descripcion-sobre-nosotros{
+    margin: 25px;
+    height: auto;
+    width: 500px;
+    font-size: 25px;
+    color: azure;
+}
+
+
