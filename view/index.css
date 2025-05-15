@@ -166,3 +166,14 @@ body{
     opacity: 1;
     filter: contrast(120%);
 }
+
+.contenedor-electrodomesticos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.electrodomesticos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
